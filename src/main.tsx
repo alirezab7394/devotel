@@ -6,7 +6,7 @@ import { ThemeProvider } from "./context/ThemeProvider";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ThemeProvider defaultTheme="system" storageKey="ui-theme">
+    <ThemeProvider defaultTheme="system" storageKey="theme">
       <App />
     </ThemeProvider>
   </StrictMode>
