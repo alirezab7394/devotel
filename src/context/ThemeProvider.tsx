@@ -1,4 +1,5 @@
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { useEffect, useState } from "react";
 
 type ThemeProviderProps = {
   children: React.ReactNode;
